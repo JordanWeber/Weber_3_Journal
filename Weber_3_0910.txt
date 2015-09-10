@@ -1,1 +1,5 @@
-Today i will be pushing the file that I made so that this file will be on my github page
+Step 1: Make the file in Nano or Piko
+Step 2: Add the file
+Step 3: Commit the file
+Step 4: push the file
+Step 5: You dun
