@@ -1,5 +1,13 @@
+These are the steps to make a file and put it on my GitHub directory
+--------------------------------------------------------------------
 Step 1: Make the file in Nano or Piko
+	nano Weber_3_0910.txt
 Step 2: Add the file
+	git add Weber_3_0910.txt
 Step 3: Commit the file
+	git commit -m "Put text here"
 Step 4: push the file
+	git push -u origin master
 Step 5: You dun
+	git you dun
+--------------------------------------------------------------------
