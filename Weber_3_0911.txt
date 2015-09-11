@@ -1,0 +1,9 @@
+What is pseudocode?
+	Pseudocode is writing down the programs that we think we want to
+use in order to organize our thoughts and clearly make a plan to solve the
+problem
+
+Why will we use it?
+	We will use Pseudocode to make coding more of a planned exercise
+rather than just jumping into the problem and possibly wasting time trying
+things that wouldn't work.
