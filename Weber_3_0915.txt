@@ -1,0 +1,4 @@
+What is an IDE?
+	An IDE is an "Integrated Development Environment", which simply put
+is an environment we will use to code in and run our code.
+
