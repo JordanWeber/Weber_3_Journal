@@ -1,0 +1,6 @@
+What are the 5 different Java Data types?
+-Int : Integer, whole number
+-Float : Any number with a decimal point (i.e. 15.2354)
+-Double : Number with one point after the decimal (i.e. 15.2)
+-Boolean : Holds a true or false value
+-String : Holds characters and sentances.
