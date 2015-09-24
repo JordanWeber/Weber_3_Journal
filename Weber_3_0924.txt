@@ -1,0 +1,3 @@
+Why did Steve Ballmer call the GPL a virus?
+	-Becuase anything useing the GPL has to use ONLY open source softare, which
+	means that any change made has to be changed.
