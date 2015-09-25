@@ -1,0 +1,12 @@
+Define the following:
+Paid License - Paying for the rights to use a softare for set ammount of time 
+Shareware - Software that is free to use and share
+Trial Ware - Having a free trial for a software for a set ammount of time
+Ad-ware - Software that makes its money from ads
+CrippleWare - Software that is dumbed down to attract people to pay money to have the
+	full version
+Freemium - Software that is free to use, but charges money to get small, better features
+FreeWare - software that is free of charge
+Richard Stallman - Software freedom activist
+Lawrence Lessig - code can be instruments for social control, and said "code is law"
+Eben Moglen - Chairman of Software Freedom Law Center
