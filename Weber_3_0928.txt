@@ -1,0 +1,17 @@
+How can we count in java?
+	for every time we do an action that we want to count, we add one
+	to a number counter.
+		int counter = 0;
+		if(ThingWeWantToCount = true) {
+			counter++;
+		}
+How can we see if a number is divisible?
+	We take the number and use modulo to see if it is divisible by
+	the number we want to check.
+		int number = 2;
+		int divisor = 2;
+		if(number % divisor == 0){
+			isDivisible = true;
+		}
+How to we check if a number has a divisor?
+	
