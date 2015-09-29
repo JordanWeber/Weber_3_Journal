@@ -1,0 +1,4 @@
+What are methods and what are they good for?
+	-Methods are small pieces of code that can be run multiple times
+	and are useful for performing the same task multiple times without
+	having to type out the whole piece of code over and over.
