@@ -1,0 +1,3 @@
+What are code comments and what are they good for?
+	Code comments are sentences you put in code to let you and others know
+	what your code does, and it helps with keeping your code organized.
