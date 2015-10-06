@@ -1,0 +1,5 @@
+What are methods?
+	Methods are small pieces of code that can be run multiple times
+What are Classes?
+	Classes are small domains of code that are like the main class, but 
+	can be run from the main class. These classes can also contain methods
