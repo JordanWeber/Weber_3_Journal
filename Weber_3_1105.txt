@@ -1,0 +1,4 @@
+What are strings?
+	Strings are variables that hold characters and sentences
+What are they for?
+	They hold the variable value of a Sentence that you may need to use
