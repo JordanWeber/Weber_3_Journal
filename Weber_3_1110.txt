@@ -1,0 +1,10 @@
+How can I track what challenges the player has solved?
+	By setting up empty booleans and making them true when the player
+finishes something
+How would I track HP?
+	Easy, Just have an Int that starts at 100, and when the player takes
+damage, subtract it from the int.
+How Would I track items.?
+	I would make an object called Inventory and have empty slots for items
+that the user couldpick up. each slot wouldmaybe have a string value, and an 
+int if its a potion (hp healed) or a weapon (damage it does).
