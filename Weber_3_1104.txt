@@ -1,0 +1,11 @@
+What is a method?
+	A method is a section of code that can be run more than once.
+What methods did I use?
+	I used methods that ran the guessing game constantly and one that
+initialized the game.
+While loop?
+	A while loop is a loop that will run forever so long as the condition
+in the parenthesis is true
+How did I use a while loop?
+	I used a while loop to keep the game running if the player got the 
+guess wrong, but still had lives left.
