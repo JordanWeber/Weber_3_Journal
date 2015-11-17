@@ -1,0 +1,43 @@
+digraph simple_map {
+
+A [label="Chose Character: Elf/Warrior/Mage"]		//node B
+Aa [label="You chose Elf"]		//node E
+Ab [label="You chose Warrior"]
+Ac [label="You chose Mage"]
+B [label="You awake in an empty room. There is no sight of people around you. Do you leave the room to find people or investigate the room? 1. Leave Room 2. Search Room"]
+Cb [label="You found a (Insert relevent item here. Will vary as the user chooses what character to play as. Item is now added to the first open slot in the players inventory."]
+D [label="You enter a low-lit room, and see a dark figure across the room, drinking and eating. You approach her to ask where you are. (misterious figure now says dialouge about you being the chosen one. Dragon sighting and what not. You are told to go on a questretrieve something from a cave to prove your ability. Do you go to the cave or explore the town for resources?"]
+Da [label="Goes to either one and is prompted with the ability to buy things. Might not have enough money to buy anything."]
+E [label="You venture out to the cave"]
+F [label="On the way you run into a pack of bandits. Do you confront them or run away?"]
+Fa [label="If you defeat them, they die and you can loot their things. If you die, the game ends."]
+G [label="You arrive at the cave, but hear comotion inside. Do you run inside the front, or go in a side intrance?"]
+//After chosing to go in the side or the front, the story branches off distinctly. I will not deviate from the original A -> B pattern, and make it A1 -> B1 and A2 -> B2, 1 meaning sneak and 2 meaning the oposite.
+A1 [label="asdf"]
+A2 [label="asdf"]
+
+A -> Aa
+A -> Ab
+A -> Ac
+Aa -> B
+Ab -> B
+Ac -> B
+B -> Cb [label="2. Search Room"]
+B -> D [label="1. Leave Room"]
+Cb -> D
+D -> Da [label="Go to the armorer or the market?"]
+D -> E                                                                        
+E -> F
+F -> Fa
+F -> G [label="You snuck around them"]
+Fa -> G
+//Sneak
+G -> A1 [label="Side"]
+//Non-Sneak
+G -> A2 [label="Front"]
+//Part 2 of cave adventure
+//Sneak
+A1 -> B1
+//Non-Sneak
+A2 -> B2
+}
