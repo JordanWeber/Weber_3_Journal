@@ -1,0 +1,7 @@
+Am I ready to begin coding my game?
+	No, I was set back by helping people and typing for you. Still doing
+the Emacs thing
+What will be the biggest challenges?
+	The biggest challenges, ones that I have tried to tackle before, are
+the ones involving an inventory. Finding a place to hold items, and haveing it
+function properly was always a challenge of mine.
