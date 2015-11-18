@@ -12,9 +12,28 @@ E [label="You venture out to the cave"]
 F [label="On the way you run into a pack of bandits. Do you confront them or run away?"]
 Fa [label="If you defeat them, they die and you can loot their things. If you die, the game ends."]
 G [label="You arrive at the cave, but hear comotion inside. Do you run inside the front, or go in a side intrance?"]
-//After chosing to go in the side or the front, the story branches off distinctly. I will not deviate from the original A -> B pattern, and make it A1 -> B1 and A2 -> B2, 1 meaning sneak and 2 meaning the oposite.
-A1 [label="asdf"]
-A2 [label="asdf"]
+//----------------------------------------------------
+//After chosing to go in the side or the front, the story branches off distinctly. I will now deviate from the original A -> B pattern, and make it A1 -> B1 and A2 -> B2, 1 meaning sneak and 2 meaning the oposite.
+//----------------------------------------------------
+A1 [label="chose to sneak"]
+B1 [label="goes in side intrance. 'Upon entering the side intrance, you find a fork in the cave. One way seems desolate, the other you hear bandits making noise, which path do you follow?'"]
+Ca1 [label="quite path"]
+Da1 [label="You find a loot room, but the door is locked. You check your inventory, and see you have 3 lockpicks. Do you attempt to pick the lock?"]
+Ea1 [label="Player now loots the chests and finds pretty decent items"]
+Cb1 [label="bandit path"]
+F1 [label="You aproach a group of roughly 3 bandits. Attempt to take them out or sneak past them?"]
+Ga1 [label="Player fights the bandits, then is prompted to loot their bodies or just pass on"]
+Gb1 [label="Sneak Unsuccessful. You now have to fight the bandits"]
+
+//----------------------------------------------------
+A2 [label="chose not to sneak"]
+B2 [label="goes in the front. Is prompted to fight immediately. After defeating the enemies, 'Search their bodies and the surroundings, or carry on with the quest?'"]
+Ca2 [label="Random Number Generator determines what the player finds. Mostly money and food"]
+Cb2 [label="Is prompted with a riddle or problem. Upon solving, the player is lead to the room with the item they are on a quest for. In the room they fight a large group of bandits trying to steal the item."]
+D2 [label="Bandits defeated. Search them and the surroundings, or just grab the item and go?"]
+Ea2 [label="Items looted. Player for sure finds at least one good item and a lot of money"]
+F2 [label="You go back to the town and deliver the item you retrieved"]
+
 
 A -> Aa
 A -> Ab
@@ -35,9 +54,30 @@ Fa -> G
 G -> A1 [label="Side"]
 //Non-Sneak
 G -> A2 [label="Front"]
+
 //Part 2 of cave adventure
 //Sneak
 A1 -> B1
+B1 -> Ca1 [label="quite path"]
+B1 -> Cb1 [label="bandit path"]
+Ca1 -> Da1
+Da1 -> Ea1 [label="Lock pick successful"]
+Da1 -> F1 [label="Lock pick unsuccessful"]
+Ea1 -> F1
+F1 -> Ga1
+F1 -> Gb1
+Ga1 -> Cb2
+Gb1 -> Cb2
+//End Sneak
+
 //Non-Sneak
 A2 -> B2
+B2 -> Ca2 [label="Search stuff"]
+B2 -> Cb2 [label="Continue on"]
+Ca2 -> Cb2
+Cb2 -> D2
+D2 -> Ea2
+D2 -> F2
+Ea2 -> F2
+//End Non-Sneak
 }
