@@ -1,0 +1,10 @@
+How Will I use Methods in my game?
+	-Run the game on a loop
+	-small interactions
+	-inventory
+	-health
+	-player object
+What values will be passed?
+	-mostly the health and items will be passed from method to method.
+I plan to actually make a player class where I'll keep the inventory and
+health.
