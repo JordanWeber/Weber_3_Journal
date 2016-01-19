@@ -1,0 +1,11 @@
+I attepted to make a sidescroller
+
+The main challenge I faced was getting the map working, and as of right now I can not
+get it working
+
+
+I did make my map, but It was the wrong size for the game, so I remade it quickly
+in the right size
+
+I was not able to meet the timeline becuase my map wasnt working and I could not get it 
+working, and that is a pretty crucial part of the game.
