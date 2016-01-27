@@ -1,0 +1,7 @@
+To add an image to my slick game, I would put the image I want in a res
+folder in my NetBeansProject folder, making sure it is a png.
+Then in my code I would tell it to draw the image, after declaring the
+image as Public picture = "/res/image.png"
+
+
+
