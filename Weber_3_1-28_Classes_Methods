@@ -1,0 +1,2 @@
+public void render(){} is a method, and we know that because of the (){}
+after render. If it were a class there would be no parenthesis, so render{}
