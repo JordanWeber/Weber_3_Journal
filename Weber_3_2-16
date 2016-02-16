@@ -1,0 +1,4 @@
+how do we use arrays in our game?
+-Making multiple instances of objects, such making many potions in our game
+-To set up the hitboxes for all the things that we create
+-To set which objects are blocked or not
