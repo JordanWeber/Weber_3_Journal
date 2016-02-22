@@ -1,0 +1,8 @@
+how can we make the orb move in the direction we are facing?
+-Make a check variable for what direction the player is facing at any time, and set
+a variable for the orb to go in that direction when you fire it. in update, have the
+position of the orb increase with time.
+
+update(){
+orb.setX(player.getX, player.getY + 5);
+}

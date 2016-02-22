@@ -1,0 +1,40 @@
+Explain this code:
+public Animation Playeranime, up, down, left, right, sprite, wait;
+    public Player() throws SlickException {
+        SpriteSheet runningSS = new SpriteSheet(
+                "res/ogrespritesheet.png", 64, 64, 0);
+        up = new Animation();
+        up.setAutoUpdate(true);
+        up.addFrame(runningSS.getSprite(0, 8), 330);
+        up.addFrame(runningSS.getSprite(1, 8), 330);
+        up.addFrame(runningSS.getSprite(2, 8), 330);
+        up.addFrame(runningSS.getSprite(3, 8), 330);
+        up.addFrame(runningSS.getSprite(4, 8), 330);
+        up.addFrame(runningSS.getSprite(5, 8), 330);
+        up.addFrame(runningSS.getSprite(6, 8), 330);
+        up.addFrame(runningSS.getSprite(7, 8), 330);
+        up.addFrame(runningSS.getSprite(8, 8), 330);
+
+-It tells the program where to look and what to grab when making the animation
+play
+
+Why would it be unrealistic / unproductive  to memorize Slick syntax - what are the skills we were trying to practice?
+-becuase It is all very specific, and we practice problem solving, not memoriztion
+What is an array?
+-a list of variables
+How do you make an array? Give an example.
+-int[] numbers = new int[10];
+What is an ArrayList?
+-an array that can be moved around at anytime.
+How do you make an arraylist?
+-ArrayList numbers = new ArrayList();
+In Netbeans, make an arraylist. Use autocompletion with the created arraylist (the '.' and pop-up):
+What are three useful arraylist methods that you identified?
+What is the difference between an array and an arraylist?
+-an array cant be moved around once the size has been set, while an array list can.
+How could we make a health counter for an avatar?
+-int[][] player = new int[5][3];
+-player[0][1] = 100;
+-The matrix I made would hold many variables, for example:
+-player[playernumber][0 = attack damage, 1 = health, 2 = etc.];
+
