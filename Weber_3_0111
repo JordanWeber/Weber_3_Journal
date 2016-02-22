@@ -1,0 +1,6 @@
+The slick game I will create is a 2D dungeoncrawler where the main objective is to
+pick  up gold bars and find the tresure chest. Your points/score are how many golden bars
+you collect, and the goal is to get as many as you can, as the game will tell you to
+collect more next time.
+
+My biggest issue was getting my map to work.
