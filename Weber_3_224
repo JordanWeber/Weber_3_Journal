@@ -1,0 +1,28 @@
+Define a class Rat
+Rat(int a, int b) {
+        this.x = a;
+        this.y = b;
+}
+
+Provide the code to declare and instatiate Rats
+Rat rat1 = new Rat(100,200);
+Rat rat2 = new Rat(300,200);
+Rat rat3 = new Rat(200,400);
+
+Explain where the decaration and initialization are placed
+I did them both at the same time, but in our game, they are declared at the start of
+the program in the main class, and initialized in the init method, or when and where
+we need them.
+
+Provode a two-dimensional array that specifies coordinates for five rats
+int[][] ratsLocation = new int[3][2];
+ratsLocation[0][0] = 100;
+ratsLocation[0][1] = 200;
+
+ratsLocation[1][0] = 300;
+ratsLocation[1][1] = 200;
+
+ratsLocation[2][0] = 200;
+ratsLocation[2][1] = 400;
+
+
