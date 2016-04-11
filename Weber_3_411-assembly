@@ -1,0 +1,18 @@
+What is assembly?
+-A very basic coding language that only contains the code needed for the task being
+performed and gives direct and complete control over the system.
+What is it good for?
+-Designing operating systems and writing device drivers
+How is assembly different that Java?
+-It is very simple code, that does not help the programmer with hints or really anything
+for that matter. All of the syntax is up to the coder to make correct.
+What are the differences bewen high level and low level languages?
+-High level languages help the coder make the syntax correct and tell them when they are
+wrong, while low level does not.
+Which type is Java? How do you know?
+-Java is high level coding becuase it helps the coder along the way when they are making
+a program.
+Which type is Assembly? How is you know?
+-Assembly is low level becuase is a very simplistic language that does not help the
+coder at all and leaves all the work up to the coder. 
+
