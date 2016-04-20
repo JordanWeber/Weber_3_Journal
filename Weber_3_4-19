@@ -1,0 +1,11 @@
+Similarities between assembly and HRM-
+HRM had the same basic style of code, as it did all of the
+code in a line, unless you told it otherwise, and had very
+basic commands to run, such as input, output, and jumps
+
+Differences between assembly and HRM-
+Assembly is much more complicated than HRM, as you have to type
+very specifically what to do, and actually tell the processor
+of the computer what actions to perform. HRM was basically
+assembly, but made easier, so that its a one size fits all
+assembly program.
