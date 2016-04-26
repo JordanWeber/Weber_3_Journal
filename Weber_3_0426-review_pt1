@@ -1,0 +1,46 @@
+public int cubed(int input) {
+	int squared = input*input;
+	int cubed = input*squared;
+
+	return cubed;
+}
+
+-------------------------------------
+void setup(){
+
+}
+
+void loop(){
+	cubed(3);
+}
+
+int cubed(int number){
+        int squared;
+        int cubed;
+
+	squared = number*number;
+	cubed = number*squared;
+
+	return cubed;
+}
+
+-------------------------------------
+
+public class Student{
+	int height;
+	int weight;
+	String eyeColor;
+	int grade;
+	public Student(int a, int b, String c, int d) {
+		this.height = a;
+		this.weight = b;
+		this.eyeColor = c;
+		this.grade = d;
+	}
+}
+
+-------------------------------------
+
+If I were to continue using Arduino, I would like to make varios games one it. 
+I'd like to make games utilizing more than just the audio speaker and buttons though, 
+I would like to make a game that uses lights, audio, buttons, and maybe the flexisensor.
