@@ -1,0 +1,26 @@
+An array is a list
+
+String[] stringArray = new String[2];
+
+int[][] 2dArray = new int[1][1];
+
+int[][][] 3dArray = new int[1][1][1];
+
+1dArray[2] = 1;
+
+while(true) {
+//do stuff here
+}
+
+use while loops so that we can keep moving the at sign
+
+start();
+
+if the user says N instead of n, it would break the program if its looking for n, so
+.toLowerCase changes the N to a n
+
+if you didnt, there would be no easy way to check if your character interacted with the
+enemy
+
+I would pass my position, the enemies position, mine/trap positions, and by making them
+static or just passing them as values through the methods
