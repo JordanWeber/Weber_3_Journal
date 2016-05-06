@@ -1,0 +1,36 @@
+x Coordinate: 42
+y Coordinate: 66
+
+The for loop runs untill xCoordinate = 42, and yCoordinate = 66
+
+#a:
+
+if(i == 0) { System.out.print("8888");
+
+on the first loop through the for loop, it just prints 8888
+#b: System.out.print(map[i][j]);
+
+Prints the matrix/map from left to right
+
+#c system.out.print(".");
+
+prints a . when map[i][j] doesnt equal x
+
+#d System.out.println(map[i][j]);
+
+prints the map
+
+-------------------------
+boolean running = true;
+while(running) {
+//do stuff
+if(stuff = done) {
+running = false;
+}
+----------------------------
+
+Static makes every reference of the thing that is static in the program the same
+--------------------------------
+enemy();
+
+Makes an instance of the enemy object so that all of its variables are unique to itself
