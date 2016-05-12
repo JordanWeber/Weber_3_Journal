@@ -1,0 +1,5 @@
+for (int i = 0; i <= board[0].length - 1; i++) {
+                    for (int j = 0; j <= board[1].length - 1; j++) { ....}
+
+With the nested for loop above, the function runs as a normal for loop does, but it runs
+so that you can check/edit/etc. for all positions on the board[] array.
